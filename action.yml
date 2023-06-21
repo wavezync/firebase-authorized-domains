@@ -1,11 +1,22 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "Firebase Authorized Domains"
+description: "Control firebase authorized domains from github actions"
+author: "WaveZync"
 inputs:
-  milliseconds: # change this
+  service_account_key_json:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: >-
+      Google Service Account json key content. You can get it from 
+      https://console.cloud.google.com/iam-admin/serviceaccounts and store it in github secrets.
+      This key should have permission to edit firebase project, google cloud cloud platform(with Editor role).
+  action:
+    required: true
+    description: >-
+      Action to perform. Available actions are: add, remove
+    default: "add"
+  domain:
+    required: true
+    description: >-
+      Domain to add or remove
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
