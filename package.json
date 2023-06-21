@@ -1,7 +1,7 @@
 {
   "name": "firebase-authorized-domains",
   "version": "1.0.1",
-  "private": true,
+  "private": false,
   "description": "Control firebase authorized domains from github actions",
   "main": "lib/main.js",
   "scripts": {
