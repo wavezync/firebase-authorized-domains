@@ -1,8 +1,8 @@
-name: "Firebase Authorized Domains"
+name: "Update Firebase Authorized Domains"
 description: "Control firebase authorized domains from github actions"
 branding:
   color: "blue"
-  icon: "globe"
+  icon: "link"
 author: "WaveZync"
 inputs:
   service_account_key_json:

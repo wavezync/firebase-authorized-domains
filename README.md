@@ -1,4 +1,4 @@
-
+[![Build](https://github.com/wavezync/firebase-authorized-domains/actions/workflows/check-dist.yml/badge.svg)](https://github.com/wavezync/firebase-authorized-domains/actions/workflows/check-dist.yml) [![Security](https://github.com/wavezync/firebase-authorized-domains/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/wavezync/firebase-authorized-domains/actions/workflows/codeql-analysis.yml)
 
 # Update Firebase Authorized Domains
 
