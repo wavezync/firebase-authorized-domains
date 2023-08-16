@@ -37,7 +37,7 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "google-auth-library": "^8.8.0",
-    "googleapis": "^118.0.0"
+    "googleapis": "^125.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.3.1",
